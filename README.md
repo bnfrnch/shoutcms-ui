@@ -1,2 +1,2 @@
 # shoutcms-ui
- Collection of Ui-related files for ShoutCMS
+This is a test repo regarding Git Pages
