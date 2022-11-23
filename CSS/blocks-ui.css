@@ -406,6 +406,7 @@ body.sui-admin .zone-block-settings_dialog .sui-control>.sui-button.dynamic-remo
 body.sui-admin .zone-block-settings_dialog .sui-control>input:hover,
 body.sui-admin .zone-block-settings_dialog .sui-control>.sui-button.dynamic-remove:hover {
     outline: none;
+    color: #27aae1;
     border-color: #27aae1;
 }
 
