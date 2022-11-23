@@ -1,0 +1,4 @@
+/* Hides Product Option Calculation */
+.invoice .order_item-breakdown-breakdown>*:nth-child(n+2) {
+    display: none;
+}

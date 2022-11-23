@@ -1,0 +1,13 @@
+/* Increases thumbnail size for selecting product option images */
+.gallery_browser-mode-select .gallery_chooser-scrollable .gallery_upload-item {
+    margin-bottom: 50px;
+}
+
+.gallery_browser-mode-select .gallery_chooser-scrollable .gallery_upload-item .gallery-thumbnail-large {
+    outline: none !important;
+}
+
+.gallery-thumbnail-large {
+        height: 100% !important;
+    overflow: visible;
+}

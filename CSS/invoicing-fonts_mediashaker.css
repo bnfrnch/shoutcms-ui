@@ -1,0 +1,31 @@
+/* Adjusts Typography to match Mediashaker Visual Identity */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+.invoice .address,
+.invoice blockquote,
+.invoice caption,
+.invoice center,
+.invoice dd,
+.invoice dir,
+.invoice div,
+.invoice dl,
+.invoice dt,
+.invoice form,
+.invoice menu,
+.invoice li,
+.invoice ol,
+.invoice p,
+.invoice pre,
+.invoice td,
+.invoice ul {
+    color: #040F0F;
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+.invoice p,
+.invoice td {
+    font-size: 11px;
+    line-height: 1.4em;
+}

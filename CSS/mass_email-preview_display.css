@@ -1,0 +1,5 @@
+/* Increases height of mass email preview frame */
+#preview_frame-container #preview_frame {
+    height: 100%;
+    min-height: 1200px;
+}

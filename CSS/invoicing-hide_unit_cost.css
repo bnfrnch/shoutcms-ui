@@ -1,0 +1,16 @@
+/* Hide Unit Cost */
+.invoice .cartItemsTable>thead>tr>th:nth-child(3),
+.invoice .cartItemsTable>thead>tr>th:nth-child(4) {
+    display: none;
+}
+
+.invoice .cartItemsTable>tbody>tr>td:nth-child(3),
+.invoice .cartItemsTable>tbody>tr>td:nth-child(4) {
+    display: none;
+}
+
+.invoice .cartItemsTable>tbody>tr>td:nth-child(5) {
+    display: block;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: none;
+}

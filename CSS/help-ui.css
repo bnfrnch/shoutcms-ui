@@ -1,0 +1,93 @@
+/* Modal Box Container */
+body.sui-admin .ui-dialog.support-dialog {
+    padding: 0;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+/* Titlebar */
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-titlebar {
+    padding: 15px;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-titlebar button {
+    margin-right: 15px;
+}
+
+/* Content Container */
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content {
+    padding: 15px;
+    min-height: 350px !important;
+    max-height: 500px !important;
+    background-color: #FFFFFF;
+}
+
+/* Content */
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog > .support-logo {
+    grid-column: 1 / span 2;
+    width: 100%;
+    height: 65px;
+    margin: 15px auto;
+    background-position: center;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog > .sui-link-block {
+    display: block;
+    width: 100%;
+    min-height: auto;
+    border: 1px solid #f0efef;
+    border-radius: 3px;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog > .sui-link-block > .sui-link-block-button {
+    padding: 30px 30px 45px 30px;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog > .sui-link-block > .sui-link-block-button > h3.sui-link-block-header {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog > .sui-link-block > .sui-link-block-button > .sui-link-block-description p {
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 2.5em;
+    border-bottom: 1px solid #F0efef;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog > .sui-link-block > .sui-link-block-button > .sui-link-block-description a {
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 0.05em;
+    width: 100%;
+    padding: 15px 50px;
+    border: 1px solid #333;
+    background-color: #333;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog > .sui-link-block > .sui-link-block-button > .sui-link-block-description a:hover {
+    color: #FFF;
+    background-color: #000;
+    transition: 0.2s;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog > .sui-link-block > .sui-link-block-button > .sui-link-block-description li#admin-extras-tutorials a {
+    color: #333;
+    background-color: transparent;
+}
+
+body.sui-admin .ui-dialog.support-dialog .ui-dialog-content > #supportdialog > .sui-link-block > .sui-link-block-button > .sui-link-block-description li#admin-extras-tutorials a:hover {
+    color: #FFF;
+    background-color: #000;
+}
