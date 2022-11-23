@@ -170,6 +170,7 @@ body.sui-admin .zone-add-dialog .zone-add-browse>.zone-add-shared {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-weight: bold;
     width: auto;
     height: auto;
     margin: 0;
@@ -349,6 +350,10 @@ body.sui-admin .zone-block-settings_dialog .chooser .chooser-template-tabs-tab-h
 .zone-add-shared:hover {
     /* Changes hover text colour */
     color: #27aae1;
+}
+
+body.sui-admin .zone-block-settings_dialog .chooser .chooser-template-tabs-tab-has_images>.template .template-header {
+    font-weight: bold;
 }
 
 body.sui-admin .zone-block-settings_dialog .chooser .chooser-template-tabs-tab-has_images>.template * {
