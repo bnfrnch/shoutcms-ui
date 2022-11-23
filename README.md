@@ -1,2 +1,2 @@
 # shoutcms-ui
-This is a test repo regarding Git Pages
+This is a Git repo for those working on changes to the ShoutCMS UI.
