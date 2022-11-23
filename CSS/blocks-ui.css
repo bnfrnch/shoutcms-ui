@@ -25,7 +25,7 @@ body.sui-admin .zone-block-container .zone-add-open::after {
 
 body.sui-admin .zone-block-container .zone-add-open:hover {
     font-size: 16px;
-    padding: 0 4px;
+    padding: 4px;
     margin: 0 0 4px 0;
     border: 1px solid #CCC;
     background-color: transparent;
