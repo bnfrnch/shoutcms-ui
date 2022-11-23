@@ -605,7 +605,7 @@ form.theme_designer2-edit-form > .theme_designer2-edit-form-block > .theme_desig
     transition: 0.2s;
 }
 /* Dialog Popups */
-.theme_designer2-panel .ui-dialog {
+.ui-dialog {
     border-radius: var(--sui-td-border_radius);
     box-shadow: 0px 2.8px 2.2px rgba(0, 0, 0, 0.006),
     0px 6.7px 5.3px rgba(0, 0, 0, 0.008),
@@ -614,89 +614,89 @@ form.theme_designer2-edit-form > .theme_designer2-edit-form-block > .theme_desig
     0px 41.8px 33.4px rgba(0, 0, 0, 0.014),
     0px 100px 80px rgba(0, 0, 0, 0.02);
 }
-.theme_designer2-panel .ui-dialog .ui-dialog-content {
+.ui-dialog .ui-dialog-content {
     background-color: var(--sui-td-white);
 }
 /* Colour Picker */
-.theme_designer2-panel .ui-dialog .ui-dialog-content {
+.ui-dialog .ui-dialog-content {
     width: 100%;
     padding: 0;
     margin: 0;
     background-color: var(--sui-td-white);
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog.ui-widget-content {
+.ui-colorpicker.ui-dialog.ui-widget-content {
     padding: var(--sui-td-spacing-large);
     background-color: var(--sui-td-white);
 }
-.theme_designer2-panel .ui-colorpicker .ui-dialog-content td {
+.ui-colorpicker .ui-dialog-content td {
     padding: 0.6em;
     margin: 0;
     border: none;
 }
-.theme_designer2-panel .ui-colorpicker-hsv,
-.theme_designer2-panel .ui-colorpicker-rgb {
+.ui-colorpicker-hsv,
+.ui-colorpicker-rgb {
     display: flex;
     flex-direction: column;
     gap: var(--sui-td-spacing-tight);
 }
-.theme_designer2-panel .ui-colorpicker-hsv > div,
-.theme_designer2-panel .ui-colorpicker-rgb > div,
-.theme_designer2-panel .ui-colorpicker-alpha > div {
+.ui-colorpicker-hsv > div,
+.ui-colorpicker-rgb > div,
+.ui-colorpicker-alpha > div {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: var(--sui-td-spacing-tight);
 }
-.theme_designer2-panel .ui-colorpicker-rgb label,
-.theme_designer2-panel .ui-colorpicker-hsv label,
-.theme_designer2-panel .ui-colorpicker-hsl label,
-.theme_designer2-panel .ui-colorpicker-lab label,
-.theme_designer2-panel .ui-colorpicker-cmyk label,
-.theme_designer2-panel .ui-colorpicker-alpha label {
+.ui-colorpicker-rgb label,
+.ui-colorpicker-hsv label,
+.ui-colorpicker-hsl label,
+.ui-colorpicker-lab label,
+.ui-colorpicker-cmyk label,
+.ui-colorpicker-alpha label {
     width: 0.8em
 }
-.theme_designer2-panel .ui-colorpicker-number {
+.ui-colorpicker-number {
     height: 1.6em;
     border: 1px solid var(--sui-td-grey-2);
     transition: 0.4s;
 }
-.theme_designer2-panel .ui-colorpicker-number:hover {
+.ui-colorpicker-number:hover {
     border: 1px solid var(--sui-td-blue);
     transition: 0.2s;
 }
 span.ui-colorpicker-unit {
     width: 1.2em;
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-colorpicker-hex {
+.ui-colorpicker.ui-dialog .ui-colorpicker-hex {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     gap: var(--sui-td-spacing-tight);
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-colorpicker-hex .ui-colorpicker-hex-input {
+.ui-colorpicker.ui-dialog .ui-colorpicker-hex .ui-colorpicker-hex-input {
     height: 1.6em;
     width: 100%;
     border: 1px solid var(--sui-td-grey-2);
     transition: 0.4s;
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-colorpicker-hex .ui-colorpicker-hex-input:hover {
+.ui-colorpicker.ui-dialog .ui-colorpicker-hex .ui-colorpicker-hex-input:hover {
     border: 1px solid var(--sui-td-blue);
     transition: 0.2s;
 }
-.theme_designer2-panel .ui-colorpicker-swatches-container {
+.ui-colorpicker-swatches-container {
     background-color: var(--sui-td-grey-3) !important;
     border-radius: var(--sui-td-border_radius);
 }
-.theme_designer2-panel .ui-colorpicker-swatches-container > div {
+.ui-colorpicker-swatches-container > div {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
 }
-.theme_designer2-panel .ui-colorpicker .ui-colorpicker-swatch {
+.ui-colorpicker .ui-colorpicker-swatch {
     width: 20px;
     height: 20px;
     margin: 0;
@@ -705,11 +705,11 @@ span.ui-colorpicker-unit {
     box-shadow: none;
     transition: 0.4s;
 }
-.theme_designer2-panel .ui-colorpicker .ui-colorpicker-swatch:hover {
+.ui-colorpicker .ui-colorpicker-swatch:hover {
     border: 1px solid var(--sui-td-blue);
     transition: 0.2s;
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-dialog-buttonpane {
+.ui-colorpicker.ui-dialog .ui-dialog-buttonpane {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -718,10 +718,10 @@ span.ui-colorpicker-unit {
     margin: var(--sui-td-spacing) 0 0 0;
     border-top: 1px solid var(--sui-td-grey-2);
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-dialog-buttonpane > div {
+.ui-colorpicker.ui-dialog .ui-dialog-buttonpane > div {
     margin: 0;
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-dialog-buttonpane .ui-button {
+.ui-colorpicker.ui-dialog .ui-dialog-buttonpane .ui-button {
     color: var(--sui-td-black);
     font-size: 12px;
     font-weight: normal;
@@ -735,13 +735,13 @@ span.ui-colorpicker-unit {
     border-radius: var(--sui-td-border_radius);
     transition: 0.4s;
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-dialog-buttonpane .ui-button:hover {
+.ui-colorpicker.ui-dialog .ui-dialog-buttonpane .ui-button:hover {
     color: var(--sui-td-blue);
     background-color: transparent !important;
     border: 1px solid var(--sui-td-blue) !important;
     transition: 0.2s;
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-checkboxradio-radio-label .ui-icon-background {
+.ui-colorpicker.ui-dialog .ui-checkboxradio-radio-label .ui-icon-background {
     display: none;
 }
 .ui-colorpicker.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
@@ -751,26 +751,26 @@ span.ui-colorpicker-unit {
     justify-content: center;
     gap: var(--sui-td-spacing);
 }
-.theme_designer2-panel .ui-colorpicker-cancel.ui-button.ui-corner-all.ui-widget:hover {
+.ui-colorpicker-cancel.ui-button.ui-corner-all.ui-widget:hover {
     color: var(--sui-td-red-hover) !important;
     border: 1px solid var(--sui-td-red-hover) !important;
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-dialog-buttonpane > .ui-dialog-buttonset > .ui-colorpicker-ok.ui-button.ui-corner-all.ui-widget.ui-button-disabled.ui-state-disabled {
+.ui-colorpicker.ui-dialog .ui-dialog-buttonpane > .ui-dialog-buttonset > .ui-colorpicker-ok.ui-button.ui-corner-all.ui-widget.ui-button-disabled.ui-state-disabled {
     color: var(--sui-td-grey-1);
     background-color: var(--sui-td-grey-2) !important;
     border: 1px solid var(--sui-td-grey-2) !important;
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-dialog-buttonpane > .ui-dialog-buttonset > .ui-colorpicker-ok.ui-button {
+.ui-colorpicker.ui-dialog .ui-dialog-buttonpane > .ui-dialog-buttonset > .ui-colorpicker-ok.ui-button {
     color: var(--sui-td-white);
     background-color: var(--sui-td-green) !important;
     border: 1px solid var(--sui-td-green) !important;
 }
-.theme_designer2-panel .ui-colorpicker.ui-dialog .ui-dialog-buttonpane > .ui-dialog-buttonset > .ui-colorpicker-ok.ui-button:hover {
+.ui-colorpicker.ui-dialog .ui-dialog-buttonpane > .ui-dialog-buttonset > .ui-colorpicker-ok.ui-button:hover {
     background-color: var(--sui-td-green-hover) !important;
     border: 1px solid var(--sui-td-green-hover) !important;
 }
 /* Image Pickers */
-.theme_designer2-panel .ui-dialog .ui-dialog-titlebar {
+.ui-dialog .ui-dialog-titlebar {
     padding: var(--sui-td-spacing);
     background-color: var(--sui-td-grey-3) !important;
 }
