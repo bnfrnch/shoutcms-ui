@@ -544,6 +544,34 @@ body.sui-admin .zone-block-settings_dialog .decorator-padding-label .sui-strut-c
     width: 50px;
 }
 
+/* Files */
+body.sui-admin .zone-block-settings_dialog .zone-block-settings .files_browser-uploader-dialog .plupload_scroll .plupload_filelist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #27aae1;
+    background: #f8f8f8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+body.sui-admin .zone-block-settings_dialog .zone-block-settings .files_browser-uploader-dialog .plupload_scroll .plupload_filelist .plupload_droptext-drag {
+    color: #27aae1;
+}
+
+body.sui-admin .zone-block-settings_dialog .zone-block-settings .files_browser-uploader-dialog .plupload_scroll .plupload_filelist .plupload_droptext-click {
+    background-color: #27aae1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 /* Form */
 .zone-block-settings .form-selection .sui-control.sui-control-radio label:hover {
     outline: none;
