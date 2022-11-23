@@ -125,6 +125,7 @@ Block Browse
 == */
 /* Modal Container */
 body.sui-admin .zone-add-dialog {
+    overflow: hidden;
     padding: 0px;
     border: none;
     border-radius: 8px;
