@@ -10,7 +10,7 @@ body.sui-admin .zone-block-container .zone-add-open {
     font-size: 16px;
     padding: 1px;
     margin: 0 0 2px 0;
-    width: calc(100% - 10px);
+    width: calc(100% - 4px);
     border: 1px solid #f4f4f5;
     background-color: #f4f4f5;
     border-radius: 5px;
@@ -62,7 +62,6 @@ body.sui-admin .zone-add .zone-add-open::after {
 body.sui-admin .zone-add .zone-add-open:hover {
     border: 1px solid #000;
     background-color: transparent;
-    ;
     transition: 0.2s;
 }
 
