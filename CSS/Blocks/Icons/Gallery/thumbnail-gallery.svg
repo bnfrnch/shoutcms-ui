@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83">
+  <g id="thumbnail-gallery" transform="translate(-576 -324)">
+    <rect id="bb" width="83" height="83" transform="translate(576 324)" fill="none"/>
+    <g id="icon" transform="translate(-0.5 2.5)">
+      <path id="Rectangle_1" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V30a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,30V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v29h29Z" transform="translate(586 331)"/>
+      <path id="Path_1" data-name="Path 1" d="M48,151.5a.5.5,0,0,1-.354-.854l7-7a.5.5,0,0,1,.707,0l5.094,5.094a.5.5,0,1,1-.707.707L55,144.707l-6.65,6.65A.5.5,0,0,1,48,151.5Z" transform="translate(541.221 201.957)"/>
+      <path id="Path_2" data-name="Path 2" d="M189.371,120.14a.5.5,0,0,1-.354-.146l-7.287-7.287-5.377,5.377a.5.5,0,1,1-.707-.707l5.73-5.73a.5.5,0,0,1,.707,0l7.64,7.64a.5.5,0,0,1-.354.854Z" transform="translate(423.408 231.41)"/>
+      <path id="Ellipse_1" data-name="Ellipse 1" d="M2-.5A2.5,2.5,0,1,1-.5,2,2.5,2.5,0,0,1,2-.5Zm0,4A1.5,1.5,0,1,0,.5,2,1.5,1.5,0,0,0,2,3.5Z" transform="translate(590.544 339.04)"/>
+      <path id="Rectangle_1-2" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V30a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,30V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v29h29Z" transform="translate(586 365)"/>
+      <path id="Path_1-2" data-name="Path 1" d="M48,151.5a.5.5,0,0,1-.354-.854l7-7a.5.5,0,0,1,.707,0l5.094,5.094a.5.5,0,1,1-.707.707L55,144.707l-6.65,6.65A.5.5,0,0,1,48,151.5Z" transform="translate(541.221 235.957)"/>
+      <path id="Path_2-2" data-name="Path 2" d="M189.371,120.14a.5.5,0,0,1-.354-.146l-7.287-7.287-5.377,5.377a.5.5,0,1,1-.707-.707l5.73-5.73a.5.5,0,0,1,.707,0l7.64,7.64a.5.5,0,0,1-.354.854Z" transform="translate(423.408 265.41)"/>
+      <path id="Ellipse_1-2" data-name="Ellipse 1" d="M2-.5A2.5,2.5,0,1,1-.5,2,2.5,2.5,0,0,1,2-.5Zm0,4A1.5,1.5,0,1,0,.5,2,1.5,1.5,0,0,0,2,3.5Z" transform="translate(590.544 373.04)"/>
+      <path id="Rectangle_1-3" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V30a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,30V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v29h29Z" transform="translate(620 331)"/>
+      <path id="Path_1-3" data-name="Path 1" d="M48,151.5a.5.5,0,0,1-.354-.854l7-7a.5.5,0,0,1,.707,0l5.094,5.094a.5.5,0,1,1-.707.707L55,144.707l-6.65,6.65A.5.5,0,0,1,48,151.5Z" transform="translate(575.221 201.957)"/>
+      <path id="Path_2-3" data-name="Path 2" d="M189.371,120.14a.5.5,0,0,1-.354-.146l-7.287-7.287-5.377,5.377a.5.5,0,1,1-.707-.707l5.73-5.73a.5.5,0,0,1,.707,0l7.64,7.64a.5.5,0,0,1-.354.854Z" transform="translate(457.408 231.41)"/>
+      <path id="Ellipse_1-3" data-name="Ellipse 1" d="M2-.5A2.5,2.5,0,1,1-.5,2,2.5,2.5,0,0,1,2-.5Zm0,4A1.5,1.5,0,1,0,.5,2,1.5,1.5,0,0,0,2,3.5Z" transform="translate(624.544 339.04)"/>
+      <path id="Rectangle_1-4" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V30a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,30V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v29h29Z" transform="translate(620 365)"/>
+      <path id="Path_1-4" data-name="Path 1" d="M48,151.5a.5.5,0,0,1-.354-.854l7-7a.5.5,0,0,1,.707,0l5.094,5.094a.5.5,0,1,1-.707.707L55,144.707l-6.65,6.65A.5.5,0,0,1,48,151.5Z" transform="translate(575.221 235.957)"/>
+      <path id="Path_2-4" data-name="Path 2" d="M189.371,120.14a.5.5,0,0,1-.354-.146l-7.287-7.287-5.377,5.377a.5.5,0,1,1-.707-.707l5.73-5.73a.5.5,0,0,1,.707,0l7.64,7.64a.5.5,0,0,1-.354.854Z" transform="translate(457.408 265.41)"/>
+      <path id="Ellipse_1-4" data-name="Ellipse 1" d="M2-.5A2.5,2.5,0,1,1-.5,2,2.5,2.5,0,0,1,2-.5Zm0,4A1.5,1.5,0,1,0,.5,2,1.5,1.5,0,0,0,2,3.5Z" transform="translate(624.544 373.04)"/>
+    </g>
+  </g>
+</svg>

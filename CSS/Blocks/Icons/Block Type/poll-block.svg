@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83">
+  <g id="poll-block" transform="translate(-576 -324)">
+    <rect id="bb" width="83" height="83" transform="translate(576 324)" fill="none"/>
+    <path id="Rectangle_16" data-name="Rectangle 16" d="M0-.5H56a.5.5,0,0,1,.5.5V40a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,40V0A.5.5,0,0,1,0-.5ZM55.5.5H.5v39h55Z" transform="translate(589.5 345.5)"/>
+    <path id="Line_17" data-name="Line 17" d="M13.031.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H13.031a.5.5,0,0,1,.5.5A.5.5,0,0,1,13.031.5Z" transform="translate(611.469 356.23)"/>
+    <path id="Ellipse_6" data-name="Ellipse 6" d="M2.37-.5A2.868,2.868,0,1,1-.5,2.368,2.872,2.872,0,0,1,2.37-.5Zm0,4.735A1.868,1.868,0,1,0,.5,2.368,1.871,1.871,0,0,0,2.37,4.235Z" transform="translate(601.524 353.659)"/>
+    <path id="Line_18" data-name="Line 18" d="M28.031.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H28.031a.5.5,0,0,1,.5.5A.5.5,0,0,1,28.031.5Z" transform="translate(611.469 365.706)"/>
+    <path id="Ellipse_7" data-name="Ellipse 7" d="M2.37-.5A2.868,2.868,0,1,1-.5,2.368,2.872,2.872,0,0,1,2.37-.5Zm0,4.735A1.868,1.868,0,1,0,.5,2.368,1.871,1.871,0,0,0,2.37,4.235Z" transform="translate(601.524 363.13)"/>
+    <path id="Line_19" data-name="Line 19" d="M20.031.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H20.031a.5.5,0,0,1,.5.5A.5.5,0,0,1,20.031.5Z" transform="translate(611.469 375.182)"/>
+    <path id="Ellipse_8" data-name="Ellipse 8" d="M2.37-.5A2.868,2.868,0,1,1-.5,2.368,2.872,2.872,0,0,1,2.37-.5Zm0,4.735A1.868,1.868,0,1,0,.5,2.368,1.871,1.871,0,0,0,2.37,4.235Z" transform="translate(601.524 372.606)"/>
+  </g>
+</svg>

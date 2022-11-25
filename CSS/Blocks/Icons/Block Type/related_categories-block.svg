@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83">
+  <g id="related_categories-block" transform="translate(-576 -324)">
+    <rect id="bb" width="83" height="83" transform="translate(576 324)" fill="none"/>
+    <g id="icon">
+      <path id="Rectangle_1" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V21a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,21V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v20h29Z" transform="translate(584.5 346.875)"/>
+      <path id="Path_1" data-name="Path 1" d="M48,151.606a.5.5,0,0,1-.354-.854l7.106-7.106a.5.5,0,0,1,.707,0l5.168,5.168a.5.5,0,0,1-.707.707l-4.814-4.814-6.752,6.752A.5.5,0,0,1,48,151.606Z" transform="translate(539.735 213.904)"/>
+      <path id="Path_2" data-name="Path 2" d="M189.566,120.252a.5.5,0,0,1-.354-.146l-7.4-7.4-5.46,5.46a.5.5,0,0,1-.707-.707l5.814-5.814a.5.5,0,0,1,.707,0l7.752,7.752a.5.5,0,0,1-.354.854Z" transform="translate(422.071 243.32)"/>
+      <path id="Ellipse_1" data-name="Ellipse 1" d="M2-.5A2.5,2.5,0,1,1-.5,2,2.5,2.5,0,0,1,2-.5Zm0,4A1.5,1.5,0,1,0,.5,2,1.5,1.5,0,0,0,2,3.5Z" transform="translate(588.5 350.875)"/>
+      <path id="Line_1" data-name="Line 1" d="M28,.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H28a.5.5,0,0,1,.5.5A.5.5,0,0,1,28,.5Z" transform="translate(584.5 372.625)"/>
+      <path id="Line_2" data-name="Line 2" d="M23,.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H23a.5.5,0,0,1,.5.5A.5.5,0,0,1,23,.5Z" transform="translate(584.5 376.625)"/>
+      <path id="Rectangle_2" data-name="Rectangle 2" d="M2,1A1,1,0,0,0,2,3h9a1,1,0,0,0,0-2H2M2,0h9a2,2,0,0,1,0,4H2A2,2,0,0,1,2,0Z" transform="translate(584.5 380.125)"/>
+      <path id="Rectangle_1-2" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V21a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,21V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v20h29Z" transform="translate(620.5 346.875)"/>
+      <path id="Path_1-2" data-name="Path 1" d="M48,151.606a.5.5,0,0,1-.354-.854l7.106-7.106a.5.5,0,0,1,.707,0l5.168,5.168a.5.5,0,0,1-.707.707l-4.814-4.814-6.752,6.752A.5.5,0,0,1,48,151.606Z" transform="translate(575.735 213.904)"/>
+      <path id="Path_2-2" data-name="Path 2" d="M189.566,120.252a.5.5,0,0,1-.354-.146l-7.4-7.4-5.46,5.46a.5.5,0,0,1-.707-.707l5.814-5.814a.5.5,0,0,1,.707,0l7.752,7.752a.5.5,0,0,1-.354.854Z" transform="translate(458.071 243.32)"/>
+      <path id="Ellipse_1-2" data-name="Ellipse 1" d="M2-.5A2.5,2.5,0,1,1-.5,2,2.5,2.5,0,0,1,2-.5Zm0,4A1.5,1.5,0,1,0,.5,2,1.5,1.5,0,0,0,2,3.5Z" transform="translate(624.5 350.875)"/>
+      <path id="Line_1-2" data-name="Line 1" d="M28,.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H28a.5.5,0,0,1,.5.5A.5.5,0,0,1,28,.5Z" transform="translate(620.5 372.625)"/>
+      <path id="Line_2-2" data-name="Line 2" d="M16.5.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H16.5A.5.5,0,0,1,17,0,.5.5,0,0,1,16.5.5Z" transform="translate(620.5 376.625)"/>
+      <path id="Rectangle_2-2" data-name="Rectangle 2" d="M2,1A1,1,0,0,0,2,3h9a1,1,0,0,0,0-2H2M2,0h9a2,2,0,0,1,0,4H2A2,2,0,0,1,2,0Z" transform="translate(620.5 380.125)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83">
+  <g id="slider-gallery" transform="translate(-576 -324)">
+    <rect id="bb" width="83" height="83" transform="translate(576 324)" fill="none"/>
+    <g id="icon" transform="translate(-0.5 11.5)">
+      <path id="Rectangle_1" data-name="Rectangle 1" d="M0-.5H64a.5.5,0,0,1,.5.5V30a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,30V0A.5.5,0,0,1,0-.5ZM63.5.5H.5v29h63Z" transform="translate(586 339)"/>
+      <path id="Line_9" data-name="Line 9" d="M2.3,2.8a.5.5,0,0,1-.354-.146l-2.3-2.3a.5.5,0,0,1,0-.707.5.5,0,0,1,.707,0l2.3,2.3A.5.5,0,0,1,2.3,2.8Z" transform="translate(592.149 351.703) rotate(90)"/>
+      <path id="Line_10" data-name="Line 10" d="M0,2.8a.5.5,0,0,1-.354-.146.5.5,0,0,1,0-.707l2.3-2.3a.5.5,0,0,1,.707,0,.5.5,0,0,1,0,.707l-2.3,2.3A.5.5,0,0,1,0,2.8Z" transform="translate(592.149 354) rotate(90)"/>
+      <path id="Line_9-2" data-name="Line 9" d="M0,2.8a.5.5,0,0,1-.354-.146.5.5,0,0,1,0-.707l2.3-2.3a.5.5,0,0,1,.707,0,.5.5,0,0,1,0,.707l-2.3,2.3A.5.5,0,0,1,0,2.8Z" transform="translate(646.149 351.703) rotate(90)"/>
+      <path id="Line_10-2" data-name="Line 10" d="M2.3,2.8a.5.5,0,0,1-.354-.146l-2.3-2.3a.5.5,0,0,1,0-.707.5.5,0,0,1,.707,0l2.3,2.3A.5.5,0,0,1,2.3,2.8Z" transform="translate(646.149 354) rotate(90)"/>
+    </g>
+  </g>
+</svg>

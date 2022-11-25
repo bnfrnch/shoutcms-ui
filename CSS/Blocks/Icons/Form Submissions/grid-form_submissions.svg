@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83">
+  <g id="grid-form_submissions" transform="translate(-576 -324)">
+    <rect id="bb" width="83" height="83" transform="translate(576 324)" fill="none"/>
+    <g id="icon" transform="translate(-0.5 2.5)">
+      <path id="Rectangle_1" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V30a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,30V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v29h29Z" transform="translate(586 331)"/>
+      <path id="Rectangle_1-2" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V30a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,30V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v29h29Z" transform="translate(586 365)"/>
+      <path id="Rectangle_1-3" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V30a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,30V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v29h29Z" transform="translate(620 331)"/>
+      <path id="Rectangle_1-4" data-name="Rectangle 1" d="M0-.5H30a.5.5,0,0,1,.5.5V30a.5.5,0,0,1-.5.5H0A.5.5,0,0,1-.5,30V0A.5.5,0,0,1,0-.5ZM29.5.5H.5v29h29Z" transform="translate(620 365)"/>
+    </g>
+  </g>
+</svg>

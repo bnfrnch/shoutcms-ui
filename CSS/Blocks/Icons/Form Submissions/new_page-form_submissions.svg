@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83">
+  <g id="new_page-form_submissions" transform="translate(-576 -324)">
+    <rect id="bb" width="83" height="83" transform="translate(576 324)" fill="none"/>
+    <g id="icon" transform="translate(-9.11 12)">
+      <path id="Rectangle_1" data-name="Rectangle 1" d="M0-.5H64a.5.5,0,0,1,.5.5V47.22a.5.5,0,0,1-.5.5H0a.5.5,0,0,1-.5-.5V0A.5.5,0,0,1,0-.5ZM63.5.5H.5V46.72h63Z" transform="translate(649.83 322.5) rotate(90)"/>
+      <path id="Line_37" data-name="Line 37" d="M0,14.5A.5.5,0,0,1-.5,14V0A.5.5,0,0,1,0-.5.5.5,0,0,1,.5,0V14A.5.5,0,0,1,0,14.5Z" transform="translate(627.11 347)"/>
+      <path id="Line_38" data-name="Line 38" d="M0,14.5A.5.5,0,0,1-.5,14V0A.5.5,0,0,1,0-.5.5.5,0,0,1,.5,0V14A.5.5,0,0,1,0,14.5Z" transform="translate(634.11 354) rotate(90)"/>
+    </g>
+  </g>
+</svg>
