@@ -645,9 +645,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: stretch;
     justify-content: center;
-    flex-basis: 124px;
+    flex-basis: 120px;
     width: auto !important;
+    height: auto;
     padding: 27.5px 15px;
     margin: 0;
     overflow: hidden;
@@ -1984,9 +1986,11 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
     flex-direction: column;
     flex-grow: 0;
     align-items: center;
+    align-self: stretch;
     justify-content: center;
     flex-basis: 120px;
     width: auto !important;
+    height: auto;
     padding: 10px 15px 15px;
     margin: 0;
     overflow: hidden;
@@ -2024,9 +2028,11 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
     flex-direction: column;
     flex-grow: 0;
     align-items: center;
+    align-self: stretch;
     justify-content: center;
     flex-basis: 120px;
     width: auto !important;
+    height: auto;
     padding: 10px 15px 15px;
     margin: 0;
     overflow: hidden;
@@ -2037,6 +2043,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
+
 }
 
 .zone-block-settings_dialog .chooser .chooser-template-tabs-tab-has_images > .template:hover {
