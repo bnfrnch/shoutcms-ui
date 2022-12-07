@@ -759,7 +759,7 @@
 .zone-dialog.ui-dialog .ui-dialog-titlebar {
     padding: 15px;
     margin: 0;
-    background-color: #f0efef;
+    background-color: #f0efef !important;
     border-bottom: 1px solid transparent !important;
 }
 
@@ -1089,7 +1089,7 @@ a.zone-block-settings-block-toggle:link {
     justify-content: center;
     gap: 10px;
     padding: 8px 8px 0 8px;
-    background-color: #f0efef;
+    background-color: #f0efef !important;
     border-bottom: none;
 }
 
@@ -1135,7 +1135,7 @@ a.zone-block-settings-block-toggle:link {
 }
 
 .zone-block-settings-tabs ul.ui-tabs-nav.ui-widget-header li.ui-state-default.ui-state-active a {
-    color: #27aae1;
+    color: #27aae1 !important;
     font-weight: bold;
     background-color: white;
     transition: 0.2s;
@@ -3363,11 +3363,3 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 }
 
 /* Header Visibility: END */
-
-/* TinyMCE */
-
-.zone-block-content .tox-edit-area.tether-target.tether-element-attached-left.tether-target-attached-left.tether-enabled.tether-out-of-bounds.tether-out-of-bounds-right.tether-element-attached-top.tether-target-attached-bottom,
-.zone-block-content .tox-edit-area.tether-target.tether-element-attached-left.tether-target-attached-left.tether-enabled.tether-element-attached-top.tether-target-attached-bottom {
-    /* Hides TinyMCE border when not active */
-    outline: 1px solid white;
-}
