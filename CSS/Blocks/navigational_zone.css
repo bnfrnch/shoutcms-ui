@@ -658,6 +658,7 @@
 
 .zone-add-block,
 .zone-add-shared {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -687,7 +688,7 @@
 .zone-add-shared:hover {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-add-block:hover .zone-add-block-image,
@@ -781,7 +782,7 @@
 }
 
 .zone-dialog.ui-dialog .ui-dialog-buttonpane {
-    background: #f0efef;
+    background: #f0efef !important;
     /* @dialog_background */
     border: none;
     padding: 5px 20px;
@@ -1167,7 +1168,7 @@ a.zone-block-settings-block-toggle:link {
 .zone-block-settings-tabs .ui-tabs-nav li a:focus,
 .zone-block-settings-tabs .ui-tabs-nav .ui-state-focus:focus,
 .zone-block-settings-tabs li.zone-block-settings-tab a:focus {
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings-tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
@@ -1600,6 +1601,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings_dialog .sui-strut-details label {
     font-weight: bold;
     text-transform: capitalize;
+    padding-left: 0;
 }
 
 /* INPUT FIELDS */
@@ -1772,14 +1774,14 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 
 /* FORM SUBMISSIONS */
 .zone-block-settings .forms_submissions-container-fields .forms_submissions-form .sui-control.sui-control-radio label:hover {
-    outline: none;
+    outline: none !important;
     color: #27aae1;
     border-color: #27aae1;
 }
 
 /* FORM */
 .zone-block-settings .form-selection .sui-control.sui-control-radio label:hover {
-    outline: none;
+    outline: none !important;
     color: #27aae1;
     border-color: #27aae1;
 }
@@ -1923,7 +1925,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 
 .zone-add-block:hover,
 .zone-add-shared:hover {
-    outline: none;
+    outline: none !important;
     border-color: #27aae1;
 }
 
@@ -2002,13 +2004,14 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 }
 
 .zone-block-settings .chooser.chooser-template.chooser-template-no_tabs .template {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     flex-grow: 0;
     align-items: center;
     align-self: stretch;
     justify-content: center;
-    flex-basis: 120px;
+    flex-basis: 100px;
     width: auto !important;
     height: auto;
     padding: 10px 15px 15px;
@@ -2067,7 +2070,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 }
 
 .zone-block-settings_dialog .chooser .chooser-template-tabs-tab-has_images>.template:hover {
-    outline: none;
+    outline: none !important;
     border-color: #27aae1;
 }
 
@@ -2301,7 +2304,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 
 .zone-block-settings .chooser-template-theme-default.chooser.chooser-template .template:hover {
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .chooser-template-theme-default.chooser.chooser-template .template:hover svg * {
@@ -2515,7 +2518,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .related_lists_datas-table-col-navigable_title input[readonly]:hover {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .related_lists_datas-table-col-navigable_title {
@@ -2557,7 +2560,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .related_lists_datas-table .dynamic-remove:hover {
     color: #27aae1;
     border: 1px solid #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .related_lists_datas-table thead .related_lists_datas-table-col-actions {
@@ -2577,7 +2580,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .related_lists_datas-table .sui-dynamic_table-add:hover {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .related_navigation_datas tbody.ui-state-default {
@@ -2638,7 +2641,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .form-selection .sui-control.sui-control-radio input:checked+label {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .form-selection .sui-control.sui-control-radio label {
@@ -2650,7 +2653,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .form-selection .sui-control.sui-control-radio label:hover {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .form-selection .form-option-name {}
@@ -2752,7 +2755,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .feature_list_placement-table-col-navigable_title input[readonly]:hover {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .feature_list_placement-table-col-navigable_title .sui-strut-controls {
@@ -2794,7 +2797,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .feature_list_placement-table .dynamic-remove:hover {
     color: #27aae1;
     border: 1px solid #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .feature_list_placement-table thead .feature_list_placement-table-col-actions {
@@ -2814,7 +2817,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .feature_list_placement-table .sui-dynamic_table-add:hover {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .feature_list_placement-table.sui-dynamic_table td.feature_list_placement-table-col-more {
@@ -2890,7 +2893,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .forms_submissions-container-fields .forms_submissions-form .sui-control.sui-control-radio input:checked+label {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .forms_submissions-container-fields .forms_submissions-form .sui-control.sui-control-radio label {
@@ -2902,7 +2905,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .forms_submissions-container-fields .forms_submissions-form .sui-control.sui-control-radio label:hover {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .forms_submissions-container-fields .forms_submissions-form .forms_submissions-option-name {}
@@ -3022,7 +3025,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
     color: #27aae1;
     border-color: #27aae1;
     border-style: solid;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .user_profile .sui-strut-details {
@@ -3137,7 +3140,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .block_expandables_datas-table .dynamic-remove:hover {
     color: #27aae1;
     border: 1px solid #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .block_expandables_datas-table .sui-dynamic_table-add {
@@ -3148,7 +3151,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .block_expandables_datas-table .sui-dynamic_table-add:hover {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .block_expandables_datas-table.sui-dynamic_table td.block_expandables_datas-table-col-more {
@@ -3301,7 +3304,7 @@ body.navigational-template-type-with-sidebar_with-extra-sidebar .decorator-align
 .zone-block-settings .poll-selection .sui-control.sui-control-radio label:hover {
     color: #27aae1;
     border-color: #27aae1;
-    outline: none;
+    outline: none !important;
 }
 
 .zone-block-settings .poll-selection .sui-strut-extra_controls input {
