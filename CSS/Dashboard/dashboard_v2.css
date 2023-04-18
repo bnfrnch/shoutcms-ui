@@ -13,6 +13,7 @@
 #console-content::after {
     content: '';
     position: absolute;
+    z-index: -1;
     inset: 0;
     width: 100%;
     height: 100%;
@@ -43,14 +44,14 @@
     filter: opacity(0.2);
 } */
 
-#console-content::after {
+/* #console-content::after {
     z-index: -1;
     background-size: auto;
     background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/shoutcms-dashboard_background-pattern-3.png');
     background-position: top right;
     background-repeat: no-repeat;
     filter: opacity(0.3);
-}
+} */
 
 /*============================================================================*\
     Page Layout
@@ -170,6 +171,70 @@ Widget Backgrounds
     background-color: transparent;
     padding: 0;
 }
+
+/* Widget Illustrations */
+
+:is(#dashboard-pages, #dashboard-store, #dashboard-contacts, .dashboard-transaction_chart, .dashboard-form_submissions, .dashboard-orders, .dashboard-invoices, .dashboard-quotes) {
+    position: relative;
+    isolation: isolate;
+}
+
+:is(#dashboard-pages, #dashboard-store, #dashboard-contacts, .dashboard-transaction_chart, .dashboard-form_submissions, .dashboard-orders, .dashboard-invoices, .dashboard-quotes)::after {
+    content: '';
+    pointer-events: none;
+    cursor: default;
+    position: absolute;
+    z-index: 1;
+    inset: 0 0 auto auto;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    filter: opacity(0.4);
+    -webkit-filter: opacity(0.4);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+:is(#dashboard-pages, #dashboard-store, #dashboard-contacts, .dashboard-transaction_chart, .dashboard-form_submissions, .dashboard-orders, .dashboard-invoices, .dashboard-quotes):hover::after {
+    filter: opacity(1);
+    -webkit-filter: opacity(1);
+}
+
+#dashboard-pages::after {
+    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/website-content-type.png');
+}
+
+#dashboard-store::after {
+    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/store-content-type.png');
+}
+
+#dashboard-contacts::after {
+    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/contacts-content-type.png');
+}
+
+.dashboard-transaction_chart::after {
+    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/analytics-content-type.png');
+}
+
+.dashboard-form_submissions::after {
+    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/form_submissions-content-type.png');
+}
+
+.dashboard-orders::after {
+    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/orders-content-type.png');
+}
+
+.dashboard-invoices::after {
+    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/invoices-content-type.png');
+}
+
+.dashboard-quotes::after {
+    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/quotes-content-type.png');
+}
+
 
 /* ==
 Widget Typography
@@ -354,7 +419,7 @@ Support Widget Layout
 Support Widget Icon
 == */
 
-.dashboard-widget.dashboard-support::after {
+/* .dashboard-widget.dashboard-support::after {
     content: '\f128';
     pointer-events: none;
     cursor: default;
@@ -383,14 +448,14 @@ Support Widget Icon
     -o-transform: rotate(8deg);
     -webkit-box-shadow: 0px 5px 15px 2px rgba(0, 152, 215, 0.1);
     box-shadow: 0px 5px 15px 2px rgba(0, 152, 215, 0.1);
-}
+} */
 
 /*============================================================================*\
     Site Status
 \*============================================================================*/
 
 .dashboard-site_status .site_status-item {
-    color: #0098d7;
+    color: #000000;
     font-size: 1rem;
     width: fit-content;
     padding: 20px;
@@ -617,37 +682,6 @@ Content Elements
 
 .dashboard-site_content .sui-dashboardblock .sui-dashboard-footer:empty {
     padding: 0;
-}
-
-/* Content Icon */
-
-:is(#dashboard-pages, #dashboard-store, #dashboard-contacts) {
-    position: relative;
-    isolation: isolate;
-}
-
-:is(#dashboard-pages, #dashboard-store, #dashboard-contacts)::after {
-    content: '';
-    pointer-events: none;
-    cursor: default;
-    position: absolute;
-    z-index: 1;
-    inset: 0 0 auto auto;
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-}
-
-#dashboard-pages::after {
-    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/website-content-type.png');
-}
-
-#dashboard-store::after {
-    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/store-content-type.png');
-}
-
-#dashboard-contacts::after {
-    background-image: url('https://benfrench.shoutcms.net/uploads/files/sui-temp/contacts-content-type.png');
 }
 
 /*============================================================================*\
@@ -1030,8 +1064,12 @@ Search Grid Rows
         -o-transition: 0.2s;
     }
 
+    .dashboard-widget-searchgrid .search_grid-table tbody>:is(.gridRow:hover, .gridAltRow:hover) * {
+        color: #0098d7 !important;
+    }
+
     .dashboard-widget-searchgrid .search_grid-table tbody>:is(.gridRow:hover, .gridAltRow:hover) td {
-        background-color: #F1F1F1;
+        background-color: rgba(0, 152, 215, 0.05);
     }
 
     .dashboard-widget-searchgrid .search_grid-table tbody>:is(.gridRow:hover, .gridAltRow:hover) a {
