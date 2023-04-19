@@ -189,8 +189,8 @@ Widget Backgrounds
     width: 90px;
     height: 90px;
     background-size: cover;
-    filter: opacity(0.4);
-    -webkit-filter: opacity(0.4);
+    filter: opacity(1);
+    -webkit-filter: opacity(1);
     transition: 0.2s;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -295,7 +295,7 @@ Widget Pin
     width: fit-content;
     padding: 0.75rem 1rem 0.75rem 1.5rem;
     margin: 0 0 15px auto;
-    background-color: #f1f1f1;
+    background-color: #f7f7f7;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -616,11 +616,6 @@ Content Elements
 .sui-block-content-text.sui-fieldset-content {
     display: flex;
     flex-direction: column;
-    gap: 1.5px;
-}
-
-:is(#dashboard-pages, #dashboard-store, #dashboard-contacts) .sui-block-content-text.sui-fieldset-content>div {
-    display: none;
 }
 
 .sui-block-content-text.sui-fieldset-content>span.sui-element {
@@ -865,11 +860,11 @@ Dashboard Videos Main Column
 
 .dashboard-videos .videos-more a {
     color: black;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
     text-decoration: none;
     padding: 1rem 1.5rem 1rem 2rem;
-    background-color: #f1f1f1;
+    background-color: #f7f7f7;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1096,7 +1091,7 @@ Search Grid View All
     font-weight: bold;
     text-decoration: none;
     padding: 1rem 1.5rem 1rem 2rem;
-    background-color: #f1f1f1;
+    background-color: #f7f7f7;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
