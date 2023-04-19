@@ -351,11 +351,11 @@
     *//*overflow: hidden;
     *//*goodforgalleries(imagesdon'toverflow),butbadforeditors(snippetstabnotvisible)*/min-height: 50px;
     position: relative;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
     transition: 0.2s;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -429,7 +429,7 @@
 }
 
 .zone-block-content-wrapper>.body>.page-wrapper>.root-section-wrapper>.content-wrapper {
-    padding: 15px;
+    padding: 10px;
 }
 
 .zone-block-content-wrapper h1,
